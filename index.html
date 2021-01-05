@@ -1,24 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="card-wrapper">
+    <div class="card">
+      <header class="card-header"></header>
+      <main class="card-main">
+        <div class="card-main__avatar">
+          <img src="images/image-victor.jpg" alt="user avatar">
+        </div>
+        <div class="card-main__information">
+          <span class="name">Victor Crest</span>
+          <span class="age">26</span>
+        </div>
+        <div class="card-main__city">
+          <span class="city">London</span>
+        </div>
+      </main>
+      <footer class="card-footer">
+        <div class="card-footer-statistics">
+          <div class="card-footer__item">
+            <div class="amount">80K</div>
+            <div class="description">Followers</div>
+          </div>
+          <div class="card-footer__item">
+            <div class="amount">803K</div>
+            <div class="description">Likes</div>
+          </div>
+          <div class="card-footer__item">
+            <div class="amount">1.4K</div>
+            <div class="description">Photos</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/SuhodolecA" target="_blank">Anton Sukhadolets</a>.
   </div>
 </body>
+
 </html>
